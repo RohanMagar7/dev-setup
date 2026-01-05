@@ -19,7 +19,7 @@ git curl wget unzip zip software-properties-common
 echo "Installing Python development tools..."
 sudo apt install -y python3 python3-pip python3-venv python3-dev
 
-pip3 install --user virtualenv pipenv pylint black
+pip3 install --user virtualenv pipenv pylint black --break-system-packages
 
 # 4. Java JDK
 echo "Installing OpenJDK 17..."
