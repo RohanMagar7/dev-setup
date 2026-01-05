@@ -80,5 +80,8 @@ This setup installs and configures:
 
 ### 1️⃣ Clone the repository
 ```bash
-git clone https://github.com/RohanMagar7/Full-Dev-Setup-Ubuntu-.git
-cd Full-Dev-Setup-Ubuntu-
+git clone https://github.com/RohanMagar7/dev-setup.git
+cd dev-setup
+chmod +x dev-setup.sh
+./dev-setup.sh
+
