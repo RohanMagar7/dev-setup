@@ -1,0 +1,36 @@
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
+
+# Log files
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-*
+
+# Test files
+test/
+*.test
+
+# Build artifacts
+dist/
+build/
+
+# Personal configurations
+.env
+.local
+
+# Downloaded packages
+*.tar.gz
+*.zip
+*.deb
+awscliv2.zip
+aws/
